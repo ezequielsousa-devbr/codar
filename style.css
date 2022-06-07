@@ -110,13 +110,6 @@ img {
     top: -100px;
 }
 
-@media(max-width: 578px) {
-	.box-description {
-		position: relative;
-		top: auto;
-	}
-}
-
 .box-h2 h2 {
     font-family: var(--roboto-fonts);
     font-weight: 400;
@@ -192,26 +185,9 @@ input[placeholder] {
 	background: #f1f1f1;
 }
 
-/* Propriedade diminui ou modifica, exclui as bordas da tag input depois de receber foco. */
 input:focus {
 	outline: 1px solid grey;
 }
-
-/*button[name="ligamos para voce"] {
-	display: inline-block;
-	font-family: var(--roboto-fonts);
-	font-size: 20px;
-	text-transform: Capitalize;
-	text-align: center;
-	font-weight: 500;
-	margin: auto 8px;
-	padding: 15px 20px;
-	width: 250px;
-	background: var(--color-red);
-	border: none;
-	border-radius: 5px;
-	color: white;
-}*/
 
 .cards {
 	display: inline-flex;
